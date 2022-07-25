@@ -875,7 +875,7 @@ def Seleccion(nombre):
     B15=Button(root, text=" Stats Rival ",command=lambda:Stats_rival(),background="Black",foreground="white",font=('Times New Roman bold',10),border=2)
     B15.grid(row=6, column=0, sticky="nsew", padx=5, pady=5)
     #Boton curar
-    if ((pikachu.current_stats["hp"]>0) and (charmander.current_stats["hp"]>0) and (squirtle.current_stats["hp"]>0) and (bulbasaur.current_stats["hp"]>0)):
+    if (((pikachu.current_stats["hp"]>0) and (charmander.current_stats["hp"]>0) and (squirtle.current_stats["hp"]>0) and (bulbasaur.current_stats["hp"]>0)) and ((pikachu_rival.current_stats["hp"]>0) and (charmander_rival.current_stats["hp"]>0) and (squirtle_rival.current_stats["hp"]>0) and (bulbasaur_rival.current_stats["hp"]>0))):
         B12=Button(root, text=" Curar ",command=lambda:Curar(),background="Black",foreground="white",font=('Times New Roman bold',10),border=2,state=DISABLED)
     else:
         B12=Button(root, text=" Curar ",command=lambda:Curar(),background="Black",foreground="white",font=('Times New Roman bold',10),border=2,state=NORMAL)
@@ -1087,6 +1087,7 @@ pikachu = Pokemon(
     tipo = "Rayo",
     fortalezas = ["Rayo"],
     debilidades = ["Agua"])
+
 
 #Pokemones Rivales
 squirtle_rival = Pokemon(
