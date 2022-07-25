@@ -689,7 +689,7 @@ def Pelea(nombre,n_pokemon,n_rival):
         Pelea=ImageTk.PhotoImage(Image.open("BVSB.png"))
         PMensaje = bulbasaur.pelea(bulbasaur_rival)
     elif ((n_pokemon=="Bulbasaur") and (n_rival =="Pikachu")):
-        Pelea=ImageTk.PhotoImage(Image.open("PVSB.png"))
+        Pelea=ImageTk.PhotoImage(Image.open("PVSC.png"))
         PMensaje = bulbasaur.pelea(pikachu_rival)
     elif ((n_pokemon=="Bulbasaur") and (n_rival =="Charmander")):
         Pelea=ImageTk.PhotoImage(Image.open("PVSC.png"))
