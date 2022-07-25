@@ -660,7 +660,6 @@ def Pelea(nombre,n_pokemon,n_rival):
         Pelea=ImageTk.PhotoImage(Image.open("BVSC.png")) 
         PMensaje = charmander.pelea(bulbasaur_rival)
     elif ((n_pokemon=="Charmander") and (n_rival =="Pikachu")):
-        print("entro")
         Pelea=ImageTk.PhotoImage(Image.open("PVSC.png"))
         PMensaje = charmander.pelea(pikachu_rival)
     elif ((n_pokemon=="Charmander") and (n_rival =="Squirtle")):
@@ -728,9 +727,6 @@ def Pelea(nombre,n_pokemon,n_rival):
 def Seleccion(nombre):
 
     def devolverDatos1():
-
-        print(Selecccion_Rival)
-        print(Seleccion_Pokemon)
         if (Seleccion_Pokemon == True and Selecccion_Rival == True) and (Nombre_pokemon != Nombre_rival) :
             root.destroy()
             Pelea(nombre,Nombre_pokemon,Nombre_rival)
