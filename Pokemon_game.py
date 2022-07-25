@@ -239,38 +239,38 @@ def add_attack(NN,Npokemon,selecctor):
             if Npokemon == "Charmander":
                 TC1=E1.get()
                 TC2=E2.get()
-                charmander.add(TC1,TC2)
+                charmander.add(TC1,int(TC2))
             elif Npokemon == "Bulbasaur":
                 TC1=E1.get()
                 TC2=E2.get()
-                bulbasaur.add(TC1,TC2)
+                bulbasaur.add(TC1,int(TC2))
             elif Npokemon == "Pikachu":
                 TC1=E1.get()
                 TC2=E2.get()
-                pikachu.add(TC1,TC2)
+                pikachu.add(TC1,int(TC2))
             else:
                 TC1=E1.get()
                 TC2=E2.get()
-                squirtle.add(TC1,TC2)
+                squirtle.add(TC1,int(TC2))
             adroot.destroy()
             estadisticas_Usuario(NN)
         else:
             if Npokemon == "Charmander":
                 TC1=E1.get()
                 TC2=E2.get()
-                charmander_rival.add(TC1,TC2)
+                charmander_rival.add(TC1,int(TC2))
             elif Npokemon == "Bulbasaur":
                 TC1=E1.get()
                 TC2=E2.get()
-                bulbasaur_rival.add(TC1,TC2)
+                bulbasaur_rival.add(TC1,int(TC2))
             elif Npokemon == "Pikachu":
                 TC1=E1.get()
                 TC2=E2.get()
-                pikachu_rival.add(TC1,TC2)
+                pikachu_rival.add(TC1,int(TC2))
             else:
                 TC1=E1.get()
                 TC2=E2.get()
-                squirtle_rival.add(TC1,TC2)
+                squirtle_rival.add(TC1,int(TC2))
             adroot.destroy()
             estadisticas_rival(NN)
 
