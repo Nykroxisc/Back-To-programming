@@ -967,7 +967,7 @@ class Pokemon:
         self.fortalezas = fortalezas
 
     def add(self,attack_name,poder):
-        self.ataques.update({str(attack_name): str(poder)})
+        self.ataques.update({str(attack_name): int(poder)})
 
     def centro_pokemon(self): #restablecer la vida del pokemon
         aux = self.stats.copy()
