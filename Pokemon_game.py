@@ -1,24 +1,8 @@
-from ast import Global
-from calendar import c
-from cgi import print_form
-from codecs import latin_1_decode
-from copyreg import pickle
-from ctypes.wintypes import HLOCAL
-from doctest import FAIL_FAST
-from faulthandler import disable
-from msilib.schema import ComboBox
-from nntplib import NNTP
-import selectors 
+
 from tkinter import *
 from tkinter import ttk
-from tkinter import messagebox
 from tkinter import font
-from turtle import back, left, position
-from types import CellType
-from webbrowser import BackgroundBrowser
 from PIL import ImageTk, Image
-from numpy import true_divide
-from pip import main
 import random
 
 def on_click(Boton,PB_ready,PB_select,ready,Pokemon_name):
